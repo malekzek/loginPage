@@ -1,0 +1,84 @@
+@import url('https://colorhunt.co/palette/211951836fff15f5baf0f3ff');
+@keyframes Gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+body{
+    background: linear-gradient(20deg, rgba(211,12,224,1) 0%, rgba(32,87,180,1) 59%, rgba(25,197,233,1) 99%);
+    animation:Gradient 15s ease infinite;
+    
+    
+    background-size: 400% 400%;
+    overflow: hidden;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    width:auto;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin:100px;
+    margin-left: 500px;
+    margin-right:500px;
+    background-color:aliceblue;
+    border-radius: 3%;
+    line-height:2;
+}
+
+footer{
+
+    text-align: center;
+
+}
+.credentials{
+    background-color:transparent;
+    display: block;
+}
+
+h1{
+  font-style: initial;
+  color:#111;
+}
+
+.ibm-plex {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight:400;
+    font-style:oblique;
+    color: dimgray;
+  }
+
+ 
+.btn{
+  display: block;
+  outline: none;
+  cursor: pointer;
+  font-size: 15px;
+  line-height: 1;
+  border-radius: 500px;
+  transition-property: background-color,border-color,color,box-shadow,filter;
+  transition-duration: .3s;
+  border: 1px solid transparent;
+  letter-spacing:1px;
+  min-width: 250px;
+  text-transform: uppercase;
+  white-space: normal;
+  font-weight: 700;
+  text-align: center;
+  padding: 17px 48px;
+  color: #fff;
+  background: radial-gradient(circle at 12.3% 19.3%, rgb(85, 88, 218) 0%, rgb(95, 209, 249) 100.2%); 
+  height: 48px;
+  :hover{
+      transform: scale(1.04);
+      background: radial-gradient(circle at 12.3% 19.3%, rgb(85, 88, 218) 0%, rgb(95, 209, 249) 100.2%);
+  }
+}
